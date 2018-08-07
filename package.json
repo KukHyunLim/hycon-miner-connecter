@@ -1,0 +1,19 @@
+{
+  "name": "hycon-restarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.codev.kr:7999/hac/hycon-restarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "getos": "^3.1.0"
+  }
+}
