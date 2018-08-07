@@ -12,17 +12,17 @@ Server health check cycle: 2 minutes
 
 # prerequisite
 - Install nodejs for your computer OS.
-https://nodejs.org/en/download/
-Supported versions: 8.x, 10.x
+- https://nodejs.org/en/download/
+- Supported versions: 8.x, 10.x
 
 # How to install
 Uncompress and overwrite the place where the minor is installed.
 
 ## window
-- Run start_for_window-x64_x86.bat
 - Change minor name to xmrig.exe
+- Run start_for_window-x64_x86.bat
 
 ## mac
-- ./start_for_mac.sh
-If it does not work, edit the permissions with chmod.
 - Change minor name to xmrig
+- ./start_for_mac.sh
+- If it does not work, edit the permissions with chmod.
