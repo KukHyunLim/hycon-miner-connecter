@@ -22,7 +22,9 @@ Uncompress and overwrite the place where the minor is installed.
 - Change minor name to xmrig.exe
 - Run start_for_window-x64_x86.bat
 
+note: If you use v3 lite Vaccine. turn off the "클라우드 평판 기반 실행 차단(Block cloud reputation-based execution)"
+
 ## mac
 - Change minor name to xmrig
-- ./start_for_mac.sh
-- If it does not work, edit the permissions with chmod.
+- type in console : ./start_for_mac.sh
+- If it does not work, edit the permissions with chmod 755.
