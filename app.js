@@ -30,7 +30,7 @@ run();
 
 setInterval(function(){ 
 	//console.log(connection.time + "-" + Date.now()+"="+(Date.now()-connection.time) );
-	if(Date.now() - connection.time > 120000 && connection.status){
+	if(Date.now() - connection.time > 180000 && connection.status){
 		miner.kill();
 		if(connection.server_status && connection.status) console.log("Server connection good but miner status abnormal.");
 		if(!connection.server_status) console.log("Server connection problem.");
